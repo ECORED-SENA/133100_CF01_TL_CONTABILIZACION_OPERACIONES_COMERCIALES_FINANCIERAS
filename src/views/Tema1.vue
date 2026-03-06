@@ -31,7 +31,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 1.2 Deberes, derechos y obligaciones
 
-    p De acuerdo con el Código de Comercio es obligación de todo comerciante:
+    p De acuerdo con el Código de Comercio, es obligación de todo comerciante:
 
     .row.bg-t1-2
       .col-12
@@ -208,7 +208,7 @@
 
                   .col-md-7.mb-4.mb-md-0
                     p #[b Número de Identificación tributaria (NIT)] 
-                    p Es el número que se obtiene una vez se ha tramitado el RUT, el cual identifica al contribuyente ante las diferentes entidades de control y supervisión. En el caso de las personas naturales se encuentra compuesto por el número de documento de identidad y el dígito de verificación. En cuanto a la identificación del NIT de las personas jurídicas, la DIAN y cámara de comercio mediante proceso realizan la asignación de 9 dígitos y el dígito de verificación.
+                    p Es el número que se obtiene una vez se ha tramitado el RUT, el cual identifica al contribuyente ante las diferentes entidades de control y supervisión. En el caso de las personas naturales se encuentra compuesto por el número de documento de identidad y el dígito de verificación. En cuanto a la identificación del NIT de las personas jurídicas, la DIAN y la cámara de comercio mediante proceso realizan la asignación de 9 dígitos y el dígito de verificación.
 
                 .row.justify-content-center.align-items-center.my-lg-4
                   .col-md-5

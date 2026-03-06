@@ -318,7 +318,7 @@
                 li.d-flex
                   i.fa-solid.fa-chevron-right
                   |
-                  p.mb-0 Münch, L. (2015). Administración: proceso administrativo, clave del éxito empresarial. Pearson
+                  p.mb-0 Münch, L. (2015). Administración: proceso administrativo, clave del éxito empresarial. Pearson.
 
                 li.d-flex
                   i.fa-solid.fa-chevron-right

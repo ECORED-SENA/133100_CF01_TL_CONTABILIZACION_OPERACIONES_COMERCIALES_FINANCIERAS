@@ -1,1 +1,1 @@
-module.exports = 'Normatividad y formalización empresa'
+module.exports = 'Normatividad y formalización de la empresa'

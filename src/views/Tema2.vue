@@ -36,7 +36,7 @@
                   figure
                     img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
                 .col
-                  h3.mb-0 Clasificaciones, naturaleza y estructura de las organizaciones     
+                  h3.mb-0 Clasificaciones, naturaleza y estructura de las organizaciones
 
           p.mt-2 Las empresas se clasifican de la siguiente manera (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Warren, Reeves y Duchac, 2016; Cuaspa, 2013):
 
@@ -48,7 +48,7 @@
                     figure
                       img(src="@/assets/curso/tema2/img2.svg", alt="", style="width: 79px").m-auto
                   .col-lg-8
-                    p #[b Con ánimo de lucro:] son empresas que tienen por objetivo la generación de rentabilidad o beneficios económicos, los cuales serán distribuidos entre los socios o propietarios. En esta clasificación podemos mencionar: persona naturales y jurídicas. 
+                    p #[b Con ánimo de lucro:] son empresas que tienen por objetivo la generación de rentabilidad o beneficios económicos, los cuales serán distribuidos entre los socios o propietarios. En esta clasificación podemos mencionar: personas naturales y jurídicas. 
 
                     p #[b Sin ánimo de lucro:]  son empresas creadas en apoyo de la comunidad. No se distribuyen las ganancias, estas son invertidas en la organización para beneficio social. En este grupo se encuentran: fundaciones de beneficencia, fondos de empleados, corporaciones civiles, clubes deportivos, etc.
 
@@ -108,9 +108,9 @@
                     .col-11
                       p.mt-4 #[b Grupo 2:] son las empresas que aplican las NIIF para pymes. De acuerdo con el decreto 2420 y 2496 de 2015, son: empresas que tengan activos totales por valor entre quinientos (500) y treinta mil (30.000) SMMLV o planta de personal entre once (11) y doscientos (200) trabajadores, y que no sean emisores de valores ni entidades de interés público. Microempresas que tengan activos totales excluida la vivienda por un valor máximo de quinientos (500) SMMLV o planta de personal no superior a los (10) trabajadores, y cuyos ingresos brutos anuales sean iguales o superiores a 6.000 SMMLV (Sistema Único de Información Normativa, 2020).
 
-                      p #[b Grupo 3:] son las empresas que aplican contabilidad simplificada para microempresas. De acuerdo con el decreto 2420 y 2496 de 2015, son: personas naturales o jurídicas que cumplan los criterios establecidos en el art. 499 del estatuto tributario (ET) y normas posteriores que lo modifiquen. Para el efecto se tomará el equivalente a UVT, en salarios mínimos legales vigentes. b) Microempresas que tengan activos totales excluida la vivienda por un valor máximo de quinientos (500) SMMLV o planta de personal no superior a los (10) trabajadores que no cumplan con los requisitos para ser incluidas en el grupo 2 ni en el literal anterior (Sistema Único de Información Normativa, 2020). 
+                      p #[b Grupo 3:] son las empresas que aplican contabilidad simplificada para microempresas. De acuerdo con el decreto 2420 y 2496 de 2015, son: a) personas naturales o jurídicas que cumplan los criterios establecidos en el art. 499 del estatuto tributario (ET) y normas posteriores que lo modifiquen. Para el efecto se tomará el equivalente a UVT, en salarios mínimos legales vigentes. b) Microempresas que tengan activos totales excluida la vivienda por un valor máximo de quinientos (500) SMMLV o planta de personal no superior a los (10) trabajadores que no cumplan con los requisitos para ser incluidas en el grupo 2 ni en el literal anterior (Sistema Único de Información Normativa, 2020). 
 
-                div(titulo="Según Conformación del Capital")
+                div(titulo="Según conformación del capital")
                   .row.justify-content-center
                     .col-lg-2.mb-4.mb-lg-0
                       figure
@@ -146,74 +146,74 @@
                     .col-10
                       h2.text-center(style="color: #5B39A6") Sector manufacturero
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Microempresa]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≤ 23.563 Unidad de valor Tributario (UVT).
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Pequeña]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 23.563 Unidad de valor Tributario (UVT) y ≤ 204.995 UVT.
 
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Mediana]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 204.995 Unidad de valor Tributario (UVT) y ≤ 1.736.565 UVT.
 
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Grande]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 1.736.565 UVT.
 
                       h2.text-center.mt-4(style="color: #5B39A6") Sector servicios
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Microempresa]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos <= 32.988 Unidad de valor Tributario (UVT).
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Pequeña]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 32.988 Unidad de valor Tributario (UVT) y ≤ 131.951 UVT.
 
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Mediana]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 131.951 Unidad de valor Tributario (UVT) y ≤ 483.034 UVT.
 
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Grande]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 483.034 UVT.
 
                       h2.text-center.mt-4(style="color: #5B39A6") Sector comercial
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Microempresa]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≤ 44.769 Unidad de valor Tributario (UVT).
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Pequeña]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 44.769 Unidad de valor Tributario (UVT) y ≤ 431.196 UVT.
 
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Mediana]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 431.196 Unidad de valor Tributario (UVT) y ≤ 2.160.692 UVT.
 
                       .row.justify-content-center.align-items-center
-                        .col-lg-2.mt-2.bg-t2-2
+                        .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Grande]
-                        .col-lg-8.mt-2.bg-t2-3 
+                        .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 2.160.692 UVT.
 
                       p.mt-4 Cabe resaltar que el presente decreto empezó a regir a partir de diciembre de 2019, donde se constituye como criterio de clasificación los ingresos ordinarios del año inmediatamente anterior, los cuales corresponden a las ventas brutas anuales derivadas del objeto social. En caso de que los ingresos generados sean de diferentes sectores, se tendrá en cuenta el rango de los ingresos del sector económico más altos (MINCIT, 2020).
@@ -335,7 +335,7 @@
                         img(src="@/assets/curso/tema2/img11.svg", alt="", style="width: 90px").m-auto
                     .col-lg-8
                       p #[b Razón social]
-                      p Se forma con el nombre completo o apellido de uno o más de los socios colectivo seguido de “& compañía”, finalmente se registra la expresión “Sociedad en comandita”.
+                      p Se forma con el nombre completo o apellido de uno o más de los socios colectivos, seguido de “& compañía”, finalmente se registra la expresión “Sociedad en comandita”.
                       hr.hr-big
 
                   .row.justify-content-center
@@ -354,9 +354,9 @@
                     .col-lg-8
                       p #[b Causales de disolución y liquidación (Secretaría del Senado, 2020, Art. 218).]
 
-                      p Causales definidas en el Art. 218 del Código de comercio.
+                      p Causales definidas en el Art. 218 del Código de Comercio.
 
-                      p Causales definidas en el Art. 319 del Código de comercio.
+                      p Causales definidas en el Art. 319 del Código de Comercio.
 
                       p Por desaparición de alguna de las categorías de socios.
 
@@ -388,7 +388,7 @@
                         img(src="@/assets/curso/tema2/img11.svg", alt="", style="width: 90px").m-auto
                     .col-lg-8
                       p #[b Razón social]
-                      p Se forma con el nombre completo o apellido de uno o más de los socios colectivo seguido de “& compañía”, finalmente se registra la expresión “Sociedad en comandita por acciones”.
+                      p Se forma con el nombre completo o apellido de uno o más de los socios colectivos, seguido de “& compañía”, finalmente se registra la expresión “Sociedad en comandita por acciones”.
                       hr.hr-big
 
                   .row.justify-content-center
@@ -407,9 +407,9 @@
                     .col-lg-8
                       p #[b Causales de disolución y liquidación (Secretaría del Senado, 2020, Art. 218).]
 
-                      p Causales definidas en el Art. 218 del Código de comercio.
+                      p Causales definidas en el Art. 218 del Código de Comercio.
 
-                      p Causales definidas en el Art. 319 del Código de comercio.
+                      p Causales definidas en el Art. 319 del Código de Comercio.
 
                       p Por desaparición de alguna de las categorías de socios.
 
@@ -460,7 +460,7 @@
                     .col-lg-8
                       p #[b Causales de disolución y liquidación (Secretaría del Senado, 2020, Art. 218).]
 
-                      p  Causales definidas en el Art. 218 del Código de comercio.
+                      p  Causales definidas en el Art. 218 del Código de Comercio.
 
                       p Cuando ocurran pérdidas que reduzcan el patrimonio neto a menos del cincuenta por ciento.
 
@@ -511,7 +511,7 @@
                     .col-lg-8
                       p #[b Causales de disolución y liquidación (Secretaría del Senado, 2020, Art. 218).]
 
-                      p Causales definidas en el Art. 218 del Código de comercio.
+                      p Causales definidas en el Art. 218 del Código de Comercio.
 
                       p Cuando ocurran pérdidas que reduzcan el patrimonio neto a menos del cincuenta por ciento, del capital suscrito.
 
@@ -1135,7 +1135,7 @@
               li.d-flex
                 i.fa-solid.fa-chevron-right
                 |
-                p.mb-0 Microempresas que tengan activos totales excluida la vivienda por un valor máximo de quinientos (500) SMMLV o planta de personal no superior a los (10) trabajadores, y cuyos ingresos brutos anuales sean iguales o superiores a 6.000 SMMLV'.
+                p.mb-0 Microempresas que tengan activos totales excluida la vivienda por un valor máximo de quinientos (500) SMMLV o planta de personal no superior a los (10) trabajadores, y cuyos ingresos brutos anuales sean iguales o superiores a 6.000 SMMLV.
 
               li.d-flex
                 i.fa-solid.fa-chevron-right

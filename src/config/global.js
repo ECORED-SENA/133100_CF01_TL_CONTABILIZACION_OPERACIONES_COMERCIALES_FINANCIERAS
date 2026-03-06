@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Normatividad y formalización empresa',
+    Name: 'Normatividad y formalización de la empresa',
     Description:
-      'El presente componente busca fortalecer los conocimientos en las generalidades de comerciantes, empresas y demás asociadas a estas, así mismo, facilita la manera de reconocer los procesos para la formalización de empresas en Colombia, estableciendo el conocimiento en obligaciones comerciales, laborales, financieras y tributarias inherentes al desarrollo del objeto social de una organización económica. De allí la importancia de analizar la normatividad a nivel Internacional y Nacional de Información Financiera (NIIF), que reflejen la realidad de la empresa y contribuyan a la adecuada toma de decisiones.',
+      'El presente componente busca fortalecer los conocimientos en las generalidades de comerciantes, empresas y demás asociadas a estas, así mismo, facilita la manera de reconocer los procesos para la formalización de empresas en Colombia, estableciendo el conocimiento en obligaciones comerciales, laborales, financieras y tributarias inherentes al desarrollo del objeto social de una organización económica. De allí la importancia de analizar la normatividad a nivel internacional y nacional de Información Financiera (NIIF), que reflejen la realidad de la empresa y contribuyan a la adecuada toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
@@ -134,7 +134,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/123101_CF01_DU.pdf',
+        download: 'downloads/123103_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
