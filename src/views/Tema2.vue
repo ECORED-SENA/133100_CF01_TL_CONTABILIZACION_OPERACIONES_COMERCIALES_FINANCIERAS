@@ -893,7 +893,7 @@
           li 
             .lista-ol--cuadro__vineta
               span.text-black 1
-            | Convocar una reunión de la junta directiva donde se realice el acta que relacione las causales de disolución y presentadas, que hacen parte del objeto de liquidación.
+            | Convocar una reunión de la junta directiva donde se realice el acta que relacione las causales de disolución presentadas, que hacen parte del objeto de liquidación.
           li 
             .lista-ol--cuadro__vineta
               span.text-black 2
@@ -1130,7 +1130,7 @@
               li.d-flex
                 i.fa-solid.fa-chevron-right
                 |
-                p.mb-0 Empresas que tengan activos totales por valor entre quinientos (500) y treinta mil (30.000) SMMLV' o planta de personal entre once (11) y doscientos (200) trabajadores, y que no sean emisores de valores ni entidades de interés público.
+                p.mb-0 Empresas que tengan activos totales por valor entre quinientos (500) y treinta mil (30.000) SMMLV o planta de personal entre once (11) y doscientos (200) trabajadores, y que no sean emisores de valores ni entidades de interés público.
 
               li.d-flex
                 i.fa-solid.fa-chevron-right
