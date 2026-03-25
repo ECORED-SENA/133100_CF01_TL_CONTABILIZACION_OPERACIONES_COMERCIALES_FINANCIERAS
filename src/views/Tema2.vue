@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1(data-aos="fade-left") La empresa
+      h1 La empresa
 
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-lg-12(data-aos="fade-down")
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
+      .col-lg-12
         .row.d-flex.align-items-stretch.bg-t1-1
           .col-xl.d-flex
             .p-4.w-100.d-flex.align-items-center
@@ -17,31 +17,28 @@
             figure.m-0.p-0.w-100.h-100.d-flex
               img(src='@/assets/curso/tema2/img1.png', alt='', class="w-100 h-100 object-fit-cover")
 
-    separador
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2(data-aos="zoom-in") 2.1 Definición, clasificaciones, naturaleza y estructura de las organizaciones
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.1 Definición, clasificaciones, naturaleza y estructura de las organizaciones
 
-    p(data-aos="fade-left") Es fundamental comprender que una organización se estructura a partir de la integración de recursos financieros, tecnológicos y humanos con el propósito de desarrollar actividades mercantiles. Las empresas pueden clasificarse según su naturaleza y funciones, abarcando desde la comercialización de bienes hasta la prestación de servicios. Para su funcionamiento, requieren talento humano, inversión financiera y una distribución clara de tareas, elementos esenciales para alcanzar sus objetivos y garantizar su sostenibilidad en el mercado.
+    p.mb-5 Es fundamental comprender que una organización se estructura a partir de la integración de recursos financieros, tecnológicos y humanos con el propósito de desarrollar actividades mercantiles. Las empresas pueden clasificarse según su naturaleza y funciones, abarcando desde la comercialización de bienes hasta la prestación de servicios. Para su funcionamiento, requieren talento humano, inversión financiera y una distribución clara de tareas, elementos esenciales para alcanzar sus objetivos y garantizar su sostenibilidad en el mercado.
 
-    .video
+    .video(data-aos="zoom-in").mb-5
       iframe(width="560" height="315" src="https://www.youtube.com/embed/yvEoYhSCaV8?si=ro-NMGiyiQHF2qZB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    .row.mt-4.bg-t2-1
+    
+    .row.bg-t2-1
       .col-12 
         .p-5      
-          .row.mb-2.ms-0
-            .col-auto.bg-c3(data-aos="fade-left")
-              .row.align-items-center
-                .col-auto.px-0
-                  figure
-                    img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
-                .col
-                  h3.mb-0 Clasificaciones, naturaleza y estructura de las organizaciones
+          .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema1/icon1.svg" style="max-width: 60px").m-auto
+            .col
+              h3 Clasificaciones, naturaleza y estructura de las organizaciones
 
-          p.mt-2 Las empresas se clasifican de la siguiente manera (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Warren, Reeves y Duchac, 2016; Cuaspa, 2013):
+          p.mb-5 Las empresas se clasifican de la siguiente manera (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Warren, Reeves y Duchac, 2016; Cuaspa, 2013):
 
-          .row.mt-2.justify-content-center
-            .col-lg-10(data-aos="fade-left")
+          .row.justify-content-center
+            .col-lg-10(data-aos="zoom-in")
               AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
                 .row.justify-content-center(titulo="Según su objetivo")
                   .col-lg-2.mb-4.mb-lg-0
@@ -144,7 +141,7 @@
 
                   .row.justify-content-center.mt-2
                     .col-10
-                      h2.text-center(style="color: #5B39A6") Sector manufacturero
+                      h2.text-center(style="color: #003F62") Sector manufacturero
                       .row.justify-content-center.align-items-center
                         .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Microempresa]
@@ -168,7 +165,7 @@
                         .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 1.736.565 UVT.
 
-                      h2.text-center.mt-4(style="color: #5B39A6") Sector servicios
+                      h2.text-center.mt-4(style="color: #003F62") Sector servicios
                       .row.justify-content-center.align-items-center
                         .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Microempresa]
@@ -192,7 +189,7 @@
                         .col-lg.mt-2.bg-t2-3 
                           p.text-center.mt-2 Ingresos ≥ 483.034 UVT.
 
-                      h2.text-center.mt-4(style="color: #5B39A6") Sector comercial
+                      h2.text-center.mt-4(style="color: #003F62") Sector comercial
                       .row.justify-content-center.align-items-center
                         .col-lg-3.mt-2.bg-t2-2
                           p.text-center.text-white.mt-2 #[b Microempresa]
@@ -218,47 +215,40 @@
 
                       p.mt-4 Cabe resaltar que el presente decreto empezó a regir a partir de diciembre de 2019, donde se constituye como criterio de clasificación los ingresos ordinarios del año inmediatamente anterior, los cuales corresponden a las ventas brutas anuales derivadas del objeto social. En caso de que los ingresos generados sean de diferentes sectores, se tendrá en cuenta el rango de los ingresos del sector económico más altos (MINCIT, 2020).
 
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.2 Sociedad: concepto, clasificación, requisitos para constitución y liquidación
 
-    separador
-    #t_2_2.titulo-segundo.color-acento-contenido
-      h2(data-aos="zoom-in") 2.2 Sociedad: concepto, clasificación, requisitos para constitución y liquidación
+    p.mb-5 La constitución de una sociedad es un paso fundamental en el ámbito empresarial, ya que permite la asociación de personas con el fin de realizar actividades mercantiles bajo una figura jurídica propia. Según el Código de Comercio, estas sociedades pueden clasificarse en diferentes tipos, cada una con características específicas que determinan su funcionamiento y responsabilidad legal. Comprender su concepto, clasificación y los requisitos para su constitución y liquidación es esencial para garantizar el cumplimiento normativo y el desarrollo sostenible de los negocios.
 
-    p(data-aos="fade-left") La constitución de una sociedad es un paso fundamental en el ámbito empresarial, ya que permite la asociación de personas con el fin de realizar actividades mercantiles bajo una figura jurídica propia. Según el Código de Comercio, estas sociedades pueden clasificarse en diferentes tipos, cada una con características específicas que determinan su funcionamiento y responsabilidad legal. Comprender su concepto, clasificación y los requisitos para su constitución y liquidación es esencial para garantizar el cumplimiento normativo y el desarrollo sostenible de los negocios.
+    .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/icon1.svg" style="max-width: 60px").m-auto
+      .col
+        h3 Concepto
 
-    .row.mb-2.ms-0
-      .col-auto.bg-c3(data-aos="fade-left")
-        .row.align-items-center
-          .col-auto.px-0
-            figure
-              img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
-          .col
-            h3.mb-0 Concepto
-
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p.bg-t2-4.p-4 Según el Código de Comercio la constitución de una sociedad consiste en que “dos o más personas se obligan a hacer un aporte en dinero, en trabajo o en otros bienes apreciables en dinero, con el fin de repartirse entre sí las utilidades obtenidas en la empresa o actividad social” (Secretaría del Senado, 2020, Art. 98).
-
-        p.mt-2 De acuerdo con lo anterior, en la constitución de la sociedad intervienen diferentes personas, las cuales se denominan socios, quienes realizan aportes de diferente índole. Esto con el objetivo de distribuirse las ganancias generadas en el curso normal del desarrollo de las operaciones comerciales. Cabe resaltar, que las sociedades se crean bajo la figura de persona jurídica distinta de los socios individualmente considerados.
-
-      .col-lg-5.d-none.d-lg-block
+        p.bg-t2-4.p-4.mb-3(data-aos="fade-right") Según el Código de Comercio la constitución de una sociedad consiste en que “dos o más personas se obligan a hacer un aporte en dinero, en trabajo o en otros bienes apreciables en dinero, con el fin de repartirse entre sí las utilidades obtenidas en la empresa o actividad social” (Secretaría del Senado, 2020, Art. 98).
+        p.mb-0 De acuerdo con lo anterior, en la constitución de la sociedad intervienen diferentes personas, las cuales se denominan socios, quienes realizan aportes de diferente índole. Esto con el objetivo de distribuirse las ganancias generadas en el curso normal del desarrollo de las operaciones comerciales. Cabe resaltar, que las sociedades se crean bajo la figura de persona jurídica distinta de los socios individualmente considerados.
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img9.png', alt='', style="width: 500px").m-auto
 
-    .row.mb-2.ms-0
-      .col-auto.bg-c3(data-aos="fade-left")
-        .row.align-items-center
-          .col-auto.px-0
-            figure
-              img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
-          .col
-            h3.mb-0 Clasificación
+    .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/icon1.svg" style="max-width: 60px").m-auto
+      .col
+        h3 Clasificación
 
-    p(data-aos="fade-left") De acuerdo con el Código de Comercio las sociedades se clasifican de la siguiente forma (Secretaría del Senado, 2020):
+    p.mb-5 De acuerdo con el Código de Comercio las sociedades se clasifican de la siguiente forma (Secretaría del Senado, 2020):
 
     .row.bg-t2-5
       .col-12
-       .p-5
-          .row.mt-2.justify-content-center
+        .p-5
+          .row.justify-content-center(data-aos="zoom-in")
             .col-lg-10
               AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
                 .row.justify-content-center(titulo="Sociedad colectiva:")
@@ -578,23 +568,19 @@
 
                       p Por pérdidas que reduzcan el patrimonio neto de la sociedad por debajo del cincuenta por ciento del capital suscrito.
 
+    .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/icon1.svg" style="max-width: 60px").m-auto
+      .col
+        h3 Requisitos para constitución
 
-    
-    .row.mb-2.ms-0
-      .col-auto.bg-c3(data-aos="fade-left")
-        .row.align-items-center
-          .col-auto.px-0
-            figure
-              img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
-          .col
-            h3.mb-0 Requisitos para constitución
-
-    p.mt-3(data-aos="fade-left") De acuerdo con el Código de Comercio (Secretaría del Senado, 2020, Art. 110), se relacionan los requisitos para la constitución de una sociedad, la cual se realizará mediante escritura pública, relacionando:
+    p.mb-5 De acuerdo con el Código de Comercio (Secretaría del Senado, 2020, Art. 110), se relacionan los requisitos para la constitución de una sociedad, la cual se realizará mediante escritura pública, relacionando:
 
     .row.bg-t1-4.mt-4
       .col-12
         .p-5
-          .tarjeta.tarjeta--gris.p-4
+          .tarjeta.tarjeta--gris.p-4(data-aos="zoom-in")
             PasosB.color-acento-contenido
               .row.justify-content-center(titulo="Paso 1")
                 .col-md-6.mb-4.mb-md-0
@@ -727,8 +713,8 @@
     .row.bg-t2-6.mt-4
       .col-12
         .p-5
-          p(data-aos="fade-left") De acuerdo con la Ley 1014 de 2006 (Secretaría del Senado, 2020), pueden constituirse sociedades pluripersonales bajo documento privado que reúna los siguientes requisitos:
-          .row.align-items-center
+          p.mb-5 De acuerdo con la Ley 1014 de 2006 (Secretaría del Senado, 2020), pueden constituirse sociedades pluripersonales bajo documento privado que reúna los siguientes requisitos:
+          .row.align-items-center.mb-5
             .col-lg-6
               .row.align-items-center.justify-content-center.row-equal-height2 
                 .col-2
@@ -793,31 +779,27 @@
                     img(src="@/assets/curso/tema2/img29.svg", alt="", style="width: 50px").m-auto
                 .col-10 
                   p.mb-0 La forma de administración dentro del tipo o especie de sociedad de que se trate, así como el nombre, documento de identidad y las facultades de sus administradores. A falta de estipulaciones se entenderá que los administradores podrán adelantar todos los actos comprendidos dentro de las actividades previstas.
-              hr.borde-num
 
-            .col-lg-6
+            .col-lg-6.mb-5
               .row.align-items-center.justify-content-center.row-equal-height2
                 .col-2
                   figure
                     img(src="@/assets/curso/tema2/img30.svg", alt="", style="width: 50px").m-auto
                 .col-10 
                   p.mb-0 Declaración por parte del constituyente o constituyentes, según sea el caso, o de sus representantes o apoderados sobre el cumplimiento de al menos uno de los requisitos señalados en el artículo 22 de la Ley 1014 de 2006 (Secretaría del Senado, 2020), esto es, que cuenten con diez (10) o menos trabajadores, o con activos totales, excluida la vivienda, por valor inferior a quinientos (500) salarios mínimos legales mensuales vigentes.
-              hr.borde-num
 
-            p.mt-4 Recuerde que, una vez que se obtiene la escritura pública o documento privado debe tramitarse el registro mercantil ante la cámara de comercio en la jurisdicción del domicilio.
+          p.mb-5 Recuerde que, una vez que se obtiene la escritura pública o documento privado debe tramitarse el registro mercantil ante la cámara de comercio en la jurisdicción del domicilio.
 
-    .row.mb-2.ms-0
-      .col-auto.bg-c3(data-aos="fade-left")
-        .row.align-items-center
-          .col-auto.px-0
-            figure
-              img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
-          .col
-            h3.mb-0  Liquidación 
+    .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/icon1.svg" style="max-width: 60px").m-auto
+      .col
+        h3 Liquidación 
 
-    p.mt-4 Según el Código de Comercio (Secretaría del Senado, 2020, Art. 218 y 225), se relacionan las causales de disolución y liquidación de una sociedad.
+    p.mb-5 Según el Código de Comercio (Secretaría del Senado, 2020, Art. 218 y 225), se relacionan las causales de disolución y liquidación de una sociedad.
 
-    .row.mt-4.justify-content-center.align-items-center.bg-t2-7.p-5
+    .row.mb-5.justify-content-center.align-items-center.bg-t2-7.p-5(data-aos="zoom-in")
       .h3.text-center Causales de disolución
       .col-lg-4 
         ul.lista-ul--color
@@ -868,21 +850,16 @@
             |
             p.mb-0 Por las demás causales establecidas en las leyes, en relación con todas o algunas de las formas de sociedad que regula este Código.
 
-    .row.mt-4.align-items-center
+    .row.align-items-center.mb-5
       .col-lg-6
-        .row.mb-2.ms-0
-          .col-auto.bg-c5(data-aos="fade-left")
-            .row.align-items-center
-              .col
-                h3.mb-0 Liquidación de una sociedad 
-
-        p.mt-2 La liquidación de una sociedad hace referencia a su terminación definitiva, la cual se deriva de las causales de disolución presentadas anteriormente; además, de las señaladas de forma específica, conforme con el tipo de sociedad constituida.
-
+        .titles___box_cuarto_nivel.mb-3(data-aos="fade-right")   
+          h4.mb-0 Liquidación de una sociedad 
+        p.mb-0 La liquidación de una sociedad hace referencia a su terminación definitiva, la cual se deriva de las causales de disolución presentadas anteriormente; además, de las señaladas de forma específica, conforme con el tipo de sociedad constituida.
       .col-lg-6.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img32.png', alt='', style="width: 480px").m-auto
 
-    .row.mt-4.align-items-center
+    .row.mb-5.align-items-center
       .col-lg-5.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img33.png', alt='', style="width: 480px").m-auto
@@ -931,16 +908,12 @@
               span.text-black 9
             | Solicitar cancelación del RUT ante la Dirección de impuestos y Aduanas Nacionales.
 
-    .row.mb-2.ms-0.mt-4
-      .col-auto.bg-c3(data-aos="fade-left")
-        .row.align-items-center
-          .col-auto.px-0
-            figure
-              img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
-          .col
-            h3.mb-0 Fenómenos societarios
-
-
+    .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/icon1.svg" style="max-width: 60px").m-auto
+      .col
+        h3 Fenómenos societarios
 
     .row.align-items-center.m-0
       .col-xl-6.tarjeta__doble_1
@@ -961,13 +934,13 @@
             h4 Fusión:
         p.mb-0 La fusión es una reforma estatutaria en la cual una o más sociedades se disuelven sin liquidarse, para ser absorbidas por otra o crear una nueva. De esta manera, traspasan sus activos, pasivos, derechos y obligaciones a otra(s) sociedad(es) existente (sociedad absorbente) o a la nueva sociedad según lo estipulado en el Código de Comercio (Secretaría del Senado, 2020, Art. 172).  
 
-    separador
-    #t_2_3.titulo-segundo.color-acento-contenido
-      h2(data-aos="zoom-in") 2.3 Normas comerciales, laborales, tributarias y de información financiera para la constitución de la empresa
+    Separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.3 Normas comerciales, laborales, tributarias y de información financiera para la constitución de la empresa
 
-    p(data-aos="fade-left") Para constituir una empresa es importante dar cumplimiento a los requisitos comerciales, laborales, tributarios y de funcionamiento; sin olvidar, aplicar adecuadamente las Normas Internacionales de Información Financiera (NIIF) para llevar a cabo el proceso contable de forma satisfactoria.  A continuación, se relacionan los diversos requisitos, los cuales aplican de acuerdo con el tipo de empresa que se desea constituir:
+    p.mb-5 Para constituir una empresa es importante dar cumplimiento a los requisitos comerciales, laborales, tributarios y de funcionamiento; sin olvidar, aplicar adecuadamente las Normas Internacionales de Información Financiera (NIIF) para llevar a cabo el proceso contable de forma satisfactoria.  A continuación, se relacionan los diversos requisitos, los cuales aplican de acuerdo con el tipo de empresa que se desea constituir:
 
-    TabsC.color-acento-contenido
+    TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Normas comerciales")
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0.p-5
@@ -1158,7 +1131,7 @@
                 p.mb-0 Microempresas que tengan activos totales excluida la vivienda por un valor máximo de quinientos (500) SMMLV o planta de personal no superior a los diez (10) trabajadores que no cumplan con los requisitos para ser incluidas en el grupo 2 ni en el literal anterior.
 
 
-    .row.align-items-center.mt-4
+    .row.align-items-center
       .col-lg-7
         p.p-4.bg-t1-5  La información de los decretos relacionados anteriormente, se encuentran compilados en el Decreto Único Reglamentario 2420 de 2015, modificado por los Decreto 2496 2015, 2131 de 2016, 2170 de 2017, 2483 de 2018 y 2270 de 2019.
 

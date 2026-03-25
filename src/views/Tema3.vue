@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1(data-aos="zoom-in") Administración
+      h1 Administración
 
-    .row.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center.mb-5
       .col-lg-7 
         p.p-4.bg-t2-4_1(data-aos="fade-left") El término administración existe desde la época primitiva, donde se realizaban trabajos rudimentarios. Toma importancia a partir de la revolución industrial, atendiendo la necesidad de coordinar esfuerzos y organizar las actividades con el fin de generar productividad y eficiencia.
 
@@ -53,29 +53,29 @@
             td.text-start Peter Drucker, Lawrence Appley, George Terry.
             td.text-start Tienen en cuenta la administración por objetivos, profundización en el proceso administrativo. Hace énfasis al modelo actual.
 
-    .row.align-items-center.justify-content-center.mt-4.bg-t1-3
+    .row.align-items-center.justify-content-center.mt-4.bg-t1-3.cambiar-color-1
       .col-lg-auto
         figure(data-aos="fade-down")
           img(src="@/assets/curso/tema3/img2.svg", alt="", style="width: 88px").m-auto
       .col-lg
         p.mb-0 Actualmente, existen otros enfoques que contribuyen notoriamente con las necesidades de las organizaciones y su entorno, entre ellas se encuentran: <em>Benchmarking</em>, Calidad total, <em>Empowerment</em>, <em>Downsizing</em>, <em>Coaching</em>, <em>Balanced Scorecard</em> y Teorías de restricciones, las cuales dan respuesta a los criterios de eficiencia, eficacia y valor agregado (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019).
 
-    separador
+    Separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Principios básicos de áreas funcionales, planeación estratégica, organización, dirección y control
 
-    p Las organizaciones se estructuran en diversas áreas funcionales que permiten coordinar y optimizar sus operaciones. Estas áreas, definidas por Henri Fayol, abarcan funciones técnicas, comerciales, financieras, de seguridad, contables y administrativas, cada una con un rol específico dentro de la gestión empresarial. Su correcta aplicación contribuye a la eficiencia operativa y al cumplimiento de los objetivos organizacionales. Según la teoría clásica las áreas funcionales son las siguientes (Fayol, 1971):
+    p.mb-5 Las organizaciones se estructuran en diversas áreas funcionales que permiten coordinar y optimizar sus operaciones. Estas áreas, definidas por Henri Fayol, abarcan funciones técnicas, comerciales, financieras, de seguridad, contables y administrativas, cada una con un rol específico dentro de la gestión empresarial. Su correcta aplicación contribuye a la eficiencia operativa y al cumplimiento de los objetivos organizacionales. Según la teoría clásica las áreas funcionales son las siguientes (Fayol, 1971):
 
-    .row.bg-t1-2
+    .row.bg-t1-2.mb-5
       .col-12
         .p-5
           .carousel-bg
-            .row.justify-content-center.align-items-center.mb-5
-              .col-lg-3.d-none.d-lg-block
+            .row.justify-content-center.align-items-center
+              .col-lg-4.d-none.d-lg-block
                 figure(data-aos="zoom-in")
-                  img(src="@/assets/curso/tema3/img3.png", alt="alt", style="width: 305px").m-auto
+                  img(src="@/assets/curso/tema3/img3.png", alt="alt", ).m-auto
               .col-lg-8
-                SlyderF.custom.mb-5(columnas="col-md-6 col-xl-4")
+                SlyderF.custom(columnas="col-md-6 col-xl-6")
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
                       .col-8
@@ -118,34 +118,29 @@
                     p.text-center.mb-2 #[b Funciones administrativas]
                     p.text-center.mb-0 Relacionan las actividades administrativas de planeación, organización, dirección y control.
 
-          .row.mb-2.ms-0.mt-4
-            .col-auto.bg-c3(data-aos="fade-left")
-              .row.align-items-center
-                .col-auto.px-0
-                  figure(data-aos="fade-left")
-                    img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
-                .col
-                  h3.mb-0 Proceso administrativo
+    .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/icon1.svg" style="max-width: 60px").m-auto
+      .col
+        h3 Proceso administrativo
 
-          .row.justify-content-center.mt-4
-            .col-lg-12(data-aos="fade-down")
-              .row.d-flex.align-items-stretch.bg-t1-1
-                .col-xl.d-flex
-                  .p-4.w-100.d-flex.align-items-center
-                    p.mb-0 El proceso administrativo es el conjunto de pasos que se aplican en una empresa para llevar a cabo una actividad que contribuya al cumplimiento de los objetivos propuestos. Las etapas que lo integran son: planeación, organización, dirección y control (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Fayol, 1971).
-                .col-xl-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                  figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
-                    img(src='@/assets/curso/tema3/img10.png', alt='', class="w-100 h-100 object-fit-cover")
+    .row.justify-content-center.mb-5
+      .col-lg-12(data-aos="fade-down")
+        .row.d-flex.align-items-stretch.bg-t1-1
+          .col-xl.d-flex
+            .p-4.w-100.d-flex.align-items-center
+              p.mb-0 El proceso administrativo es el conjunto de pasos que se aplican en una empresa para llevar a cabo una actividad que contribuya al cumplimiento de los objetivos propuestos. Las etapas que lo integran son: planeación, organización, dirección y control (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Fayol, 1971).
+          .col-xl-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+            figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
+              img(src='@/assets/curso/tema3/img10.png', alt='', class="w-100 h-100 object-fit-cover")
 
-    .row.mb-2.ms-0.mt-4
-      .col-auto.bg-c4(data-aos="fade-left")
-        .row.align-items-center
-          .col
-            h3.mb-0 Planeación
+    .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
+      h4.mb-0 Planeación
 
-    p.mt-4 Son las actividades iniciales que desarrollará la empresa para obtener los resultados deseados. Los elementos que intervienen son:  
+    p.mb-5 Son las actividades iniciales que desarrollará la empresa para obtener los resultados deseados. Los elementos que intervienen son:  
 
-    .row.bg-t1-4.mt-4
+    .row.bg-t1-4.mb-5
       .col-12
         .p-5
           .tarjeta.tarjeta--azul.mb-6(style='background-color: white !important')
@@ -223,18 +218,12 @@
                     p #[b Presupuestos ] 
                     p Aquí se definen los recursos en términos cuantificables para llevar a cabo los programas que contribuyan a alcanzar los objetivos.
 
+    .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
+      h4.mb-0 Organización
 
+    p.mb-5 Hace referencia a la coordinación de funciones, recursos y división del trabajo, teniendo en cuenta los procesos, sistemas, estructuras y jerarquías para el cumplimento de objetivos. El establecimiento de la estructura depende de las características de la empresa, objetivos y recursos. Entre las posibles estructuras se encuentran (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Fayol, 1971):
 
-    .row.mb-2.ms-0.mt-4
-      .col-auto.bg-c4(data-aos="fade-left")
-        .row.align-items-center
-          .col
-            h3.mb-0 Organización
-
-
-    p.mt-4 Hace referencia a la coordinación de funciones, recursos y división del trabajo, teniendo en cuenta los procesos, sistemas, estructuras y jerarquías para el cumplimento de objetivos. El establecimiento de la estructura depende de las características de la empresa, objetivos y recursos. Entre las posibles estructuras se encuentran (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Fayol, 1971):
-
-    .row.bg-t1-4.mt-4
+    .row.bg-t1-4.mb-5
       .col-12
         .p-5
           .tarjeta.tarjeta--azul.mb-6(style='background-color: white !important')
@@ -277,36 +266,29 @@
                     p En términos generales, es utilizada por las grandes empresas, donde se combinan los recursos y materiales para ejecutar actividades específicas o proyectos.
 
 
-    .row.mb-2.ms-0.mt-4
-      .col-auto.bg-c4(data-aos="fade-left")
-        .row.align-items-center
-          .col
-            h3.mb-0 Dirección
+    .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
+      h4.mb-0 Dirección
 
-    .row.align-items-center.justify-content-center.mt-4
+    .row.align-items-center.justify-content-center.mb-5
       .col-lg-7 
         p.p-5.bg-t2-4  En esta etapa se materializan los planes y programas, teniendo en cuenta la asignación de recursos, responsables, tiempo y actividades establecidas en la etapa de planeación. Para llevar a cabo el proceso de forma satisfactoria se requiere de habilidades como liderazgo, comunicación asertiva, trabajo en equipo, motivación, actitud, responsabilidad, administración de tiempo, innovación, creatividad, disciplina y cultura organizacional. Es por esto, que es importante seleccionar cuidadosamente el personal que ejecutará los planes propuestos (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Fayol, 1971). 
       .col-lg-5.d-none.d-lg-block
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img23.png', alt='', style="width: 480px").m-auto
 
-    .row.mb-2.ms-0.mt-4
-      .col-auto.bg-c4(data-aos="fade-left")
-        .row.align-items-center
-          .col
-            h3.mb-0 Control
+    .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
+      h4.mb-0 Control
 
-    .row.align-items-center.justify-content-center.mt-4
+    .row.align-items-center.justify-content-center.mb-5
       .col-lg-5.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/img24.png', alt='', style="width: 480px").m-auto
       .col-lg-7 
-        p.p-5.bg-t2-7  Esta etapa es muy importante en el proceso administrativo, pues se verifica que los programas se hayan desarrollado conforme a lo planeado, teniendo en cuenta el manejo de recursos de forma eficiente. Además, permite observar las posibles desviaciones, con el fin de implementar acciones correctivas o preventivas que ayuden a alcanzar los objetivos (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019).  
+        p.p-5.bg-t2-7.cambiar-color-2(data-aos="fade-left") Esta etapa es muy importante en el proceso administrativo, pues se verifica que los programas se hayan desarrollado conforme a lo planeado, teniendo en cuenta el manejo de recursos de forma eficiente. Además, permite observar las posibles desviaciones, con el fin de implementar acciones correctivas o preventivas que ayuden a alcanzar los objetivos (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019).  
 
-        p Para realizar el proceso de control se debe contar con elementos de medición como los indicadores de gestión o indicadores financieros, los cuales permiten valorar los resultados obtenidos y, los recursos consumidos. El seguimiento de los resultados conduce a la mejora continua de los procesos de la organización; por ende, debe darse la importancia que merece, con el fin de garantizar el cumplimiento de los planes (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Fayol, 1971).
+        p.mb-0 Para realizar el proceso de control se debe contar con elementos de medición como los indicadores de gestión o indicadores financieros, los cuales permiten valorar los resultados obtenidos y, los recursos consumidos. El seguimiento de los resultados conduce a la mejora continua de los procesos de la organización; por ende, debe darse la importancia que merece, con el fin de garantizar el cumplimiento de los planes (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019; Fayol, 1971).
 
-
-    .row.justify-content-center.mt-4
+    .row.justify-content-center
       .col-lg-12(data-aos="fade-down")
         .row.d-flex.align-items-stretch.bg-t3-1
           .col-xl.d-flex
